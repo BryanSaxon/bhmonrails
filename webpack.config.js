@@ -4,6 +4,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   entry: "./src/styles.css",
+  output: {
+    path: path.resolve(__dirname, 'public')
+  },
   mode: process.env.NODE_ENV,
   module: {
     rules: [
