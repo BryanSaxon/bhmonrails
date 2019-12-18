@@ -1,23 +1,26 @@
-@tailwind preflight;
-
+@tailwind base;
 @tailwind components;
-
-.container {
-  max-width: 900px;
-}
-
-@media (max-width: 768px) {
-  h1 {
-    @apply text-2xl;
-  }
-
-  h2 {
-    @apply text-xl;
-  }
-
-  h3 {
-    @apply text-base;
-  }
-}
-
 @tailwind utilities;
+
+.sponsor-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.sponsor-group-line {
+  height: .0625rem;
+  display: inline-block;
+  width: 100%;
+  background-color: black;
+}
+
+.sponsor-group-line\:gold {
+  background-image: linear-gradient(90deg, #f6993f, #ffed4a);
+}
+
+.sponsor-group-line\:community {
+  background-image: linear-gradient(90deg, #f6993f, #e3342f);
+}
+
