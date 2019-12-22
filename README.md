@@ -31,8 +31,8 @@ promoting quality content and a city that's investing in their economic future.
 
 ## Contributing
 
-1. Thank you! We love [our contributors](https://github.com/:owner/:name/graphs/contributors)!
+1. Thank you! We love [our contributors](https://github.com/BryanSaxon/bhmonrails/graphs/contributors)!
 1. Clone the repository.
 1. Make your changes in a thoughtfully-named branch.
-1. Submit a [Pull Request](https://github.com/:owner/:name/pulls)!
+1. Submit a [Pull Request](https://github.com/BryanSaxon/bhmonrails/pulls)!
 1. Celebrate! :tada:
