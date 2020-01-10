@@ -20,6 +20,10 @@
   background-image: linear-gradient(90deg, #f6993f, #ffed4a);
 }
 
+.sponsor-group-line\:silver {
+  background-image: linear-gradient(90deg, #c0c0c0, #c0c0c0);
+}
+
 .sponsor-group-line\:community {
   background-image: linear-gradient(90deg, #f6993f, #e3342f);
 }
