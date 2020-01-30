@@ -3,7 +3,10 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./src/styles.css",
+  entry: {
+    main: "./src/styles.css",
+    details: "./src/styles.css"
+  },
   output: {
     path: path.resolve(__dirname, 'public')
   },
@@ -38,11 +41,13 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "src/index.html"
+      template: "src/index.html",
+      chunks: ["main"]
     }),
     new HtmlWebpackPlugin({
       filename: "details.html",
-      template: "src/details.html"
+      template: "src/details.html",
+      chunks: ["details"]
     })
   ]
 };
